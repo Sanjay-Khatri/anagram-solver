@@ -4,6 +4,7 @@ import time
 
 
 def foo(swords,start):
+    #PROVIDE THE APPROPRIATE DIRECTORY WHERE THE "words.txt" IS PLACED 
     with open("C:\words.txt") as reader:
         wordlist = reader.read().split()
         for sword in swords:
